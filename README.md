@@ -1,6 +1,6 @@
 Final Assignment uchun qilingan demo project
 
-Texnalogiyalar:
+## Texnalogiyalar:
 HTML/CSS
 Bootstrap 5
 Express
