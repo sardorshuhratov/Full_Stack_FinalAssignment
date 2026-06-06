@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "fullName": "Administrator",
+    "phone": "+998901234567",
+    "specialty": "Tizim boshqaruvi",
+    "email": "admin@caretrack.uz",
+    "password": "$2b$10$LJ3Vm4mUeiYnFDfaMv.wcuXK7yRPVQ04LdeJj9wNwmzirhEqkOYia",
+    "role": "admin"
+  },
+  {
+    "id": 3,
+    "username": "doctor_nevro",
+    "fullName": "Dr. Karimova Aziza",
+    "phone": "+998902223344",
+    "specialty": "Nevrolog",
+    "email": "nevro@caretrack.uz",
+    "password": "$2b$10$HP8A63cG28vg5aXfenF6vuJz11q/y1GEybfFCKwOds6mxcu3mtbz6",
+    "role": "clinician"
+  },
+  {
+    "id": 4,
+    "username": "doctor_derma",
+    "fullName": "Dr. Rahimov Bobur",
+    "phone": "+998903334455",
+    "specialty": "Dermatolog",
+    "email": "derma@caretrack.uz",
+    "password": "$2b$10$R5PsqADxXJ6ZgImkTNtn5.BnYNtwULS8eFkjk9wqMMIDHOuufW8M6",
+    "role": "clinician"
+  },
+  {
+    "id": 5,
+    "username": "doctor_orto",
+    "fullName": "Dr. Toshmatova Nilufar",
+    "phone": "+998904445566",
+    "specialty": "Ortoped",
+    "email": "orto@caretrack.uz",
+    "password": "$2b$10$NmLX5ckupyJ/0aPGR2gXz.aYAnu1LMkeYfsX64ihEY60F.uV8taGO",
+    "role": "clinician"
+  },
+  {
+    "id": 6,
+    "username": "reception1",
+    "fullName": "Qabulxona Xodimi",
+    "phone": "+998905556677",
+    "specialty": "Qabulxona",
+    "email": "reception@caretrack.uz",
+    "password": "$2b$10$NvTDggWlqebwdQWs8XXuDOCFHyKVufUZnpcqfzW65MBslL8I3a5R2",
+    "role": "receptionist"
+  },
+  {
+    "id": 7,
+    "username": "ali",
+    "fullName": "Shuhratov Sardor",
+    "phone": "948588180",
+    "specialty": "Admin",
+    "email": "sardorbekshuhratov709@gmail.com",
+    "password": "$2b$10$7GcZ5BVCXiO4FZyrsZ/qE.ChxvpdG9LAYlBe5D8QZ9.Eb6VulBFPO",
+    "role": "admin"
+  },
+  {
+    "id": 8,
+    "username": "doctor_kardio",
+    "fullName": "Dr. Valiyev Ali",
+    "phone": "+998500050401",
+    "specialty": "Kardiolog",
+    "email": "ali@caretrack.uz",
+    "password": "$2b$10$z/HpKWVAPE8RPVAQ/KSCouvtJ3XohqncNPpD/jgmvGQAjdd18PkCq",
+    "role": "clinician"
+  }
+]

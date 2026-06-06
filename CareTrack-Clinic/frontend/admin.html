@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CareTrack Clinic - Administrator paneli">
+    <title>CareTrack Clinic | Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-page-role="admin">
+    <div class="app-layout">
+      <!-- Hamburger Toggle (Mobile) -->
+      <button class="sidebar-toggle" id="sidebarToggle" type="button">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <!-- Sidebar -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-brand">
+          <h4><i class="bi bi-heart-pulse me-2"></i>CareTrack</h4>
+          <small>Administrator</small>
+        </div>
+        <nav class="sidebar-nav nav flex-column side-menu">
+          <a class="nav-link active" href="#adminsSection"><i class="bi bi-person-workspace"></i> Adminlar</a>
+          <a class="nav-link" href="#doctorsSection"><i class="bi bi-people-fill"></i> Doktorlar</a>
+          <a class="nav-link" href="#receptionistsSection"><i class="bi bi-person-badge"></i> Qabulxona xodimlari</a>
+          <a class="nav-link" href="#patientsSection"><i class="bi bi-person-lines-fill"></i> Bemorlar</a>
+          <a class="nav-link" href="#diagnosesSection"><i class="bi bi-clipboard2-pulse"></i> Tashxislar</a>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="user-info">
+            <div class="user-avatar" id="userAvatar">A</div>
+            <div>
+              <div class="user-name" id="userLabel">Admin</div>
+              <div class="user-role">Administrator</div>
+            </div>
+          </div>
+          <button id="logoutButton" class="btn btn-outline-danger btn-sm w-100" type="button">
+            <i class="bi bi-box-arrow-left me-1"></i>Chiqish
+          </button>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="dashboard-main">
+        <div class="page-header">
+          <div>
+            <p class="eyebrow">Admin paneli</p>
+            <h1>Tizim boshqaruvi</h1>
+          </div>
+          <button id="refreshButton" class="btn btn-outline-primary btn-sm" type="button">
+            <i class="bi bi-arrow-clockwise me-1"></i>Yangilash
+          </button>
+        </div>
+
+        <div id="messageBox" class="alert d-none"></div>
+
+        <!-- Statistika -->
+        <section class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-label"><i class="bi bi-people me-1"></i>Xodimlar</span>
+            <strong class="stat-value" id="usersCount">0</strong>
+          </div>
+          <div class="stat-card accent">
+            <span class="stat-label"><i class="bi bi-person-lines-fill me-1"></i>Bemorlar</span>
+            <strong class="stat-value" id="patientsCount">0</strong>
+          </div>
+          <div class="stat-card success">
+            <span class="stat-label"><i class="bi bi-clipboard2-pulse me-1"></i>Tashxislar</span>
+            <strong class="stat-value" id="diagnosesCount">0</strong>
+          </div>
+        </section>
+
+        <!-- Bo'limlar -->
+        <section id="adminsSection" class="panel"></section>
+        <section id="doctorsSection" class="panel d-none"></section>
+        <section id="receptionistsSection" class="panel d-none"></section>
+        <section id="patientsSection" class="panel d-none"></section>
+        <section id="diagnosesSection" class="panel d-none"></section>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
