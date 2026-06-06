@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "backend"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "**/*.tmp",
+    "**/*.crdownload",
+    "**/OneDriveTemp/**",
+    ".git/**",
+    "frontend/**",
+    "**/node_modules/**",
+    "backend/data/**"
+  ]
+}

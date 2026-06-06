@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "fullName": "Ali Valiyev",
+    "phone": "+998979730307",
+    "email": "",
+    "complaint": "Bosh og'rig'i",
+    "birthDate": "2007-02-11",
+    "address": "Jizzax",
+    "registeredBy": 6,
+    "primaryDoctorId": 3,
+    "createdAt": "2026-06-05"
+  },
+  {
+    "id": 2,
+    "fullName": "Sardor Shuhratov",
+    "phone": "+998975524050",
+    "email": "",
+    "complaint": "Teri toshmasi",
+    "birthDate": "2006-08-31",
+    "address": "Surxondaryo",
+    "registeredBy": 6,
+    "primaryDoctorId": 4,
+    "createdAt": "2026-06-05"
+  },
+  {
+    "id": 3,
+    "fullName": "Shaxriyor Qurbanov",
+    "phone": "+998979730307",
+    "email": "",
+    "complaint": "Yurak tez urishi",
+    "birthDate": "0207-02-11",
+    "address": "Jizzax",
+    "registeredBy": 6,
+    "primaryDoctorId": 8,
+    "createdAt": "2026-06-06"
+  },
+  {
+    "id": 4,
+    "fullName": "Isoxon Xabibullayev",
+    "phone": "+998905995538",
+    "email": "",
+    "complaint": "Tizza og'rig'i",
+    "birthDate": "2007-09-11",
+    "address": "Namangan",
+    "registeredBy": 6,
+    "primaryDoctorId": 5,
+    "createdAt": "2026-06-06"
+  }
+]
